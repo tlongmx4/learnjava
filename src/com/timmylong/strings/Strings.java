@@ -41,5 +41,13 @@ public class Strings {
         System.out.println(first.equals(anotherFirst));
         System.out.println(second.equals(secondUpperCase));
         System.out.println(second.equalsIgnoreCase(secondUpperCase));
+
+        // find the index of n!
+
+        String game = "Where is n the letter?";
+
+        char theLetterN = game.charAt(9);
+
+        System.out.println("The letter at the 9th index is: " + theLetterN);
     }
 }
