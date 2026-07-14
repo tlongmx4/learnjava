@@ -14,9 +14,9 @@ src/
 
 ## Topics covered so far
 
-| Topic | File | Notes                                                   |
-|---|---|---------------------------------------------------------|
-| Strings | `Strings.java` | Case conversion, `startsWith`, `replace`, `concatenation` |
+| Topic | File | Notes                                                       |
+|---|---|-------------------------------------------------------------|
+| Strings | `Strings.java` | Case conversion, `startsWith`, `replace`, `concat`, `equals` |
 
 ## Running a file
 
@@ -27,7 +27,7 @@ java -cp out com.timmylong.strings.Strings
 
 ## Progress log
 
-- Strings: case conversion, search, replace, and concatenation methods.
+- Strings: case conversion, search, replace, and concatenation and compare methods.
 
 ---
 

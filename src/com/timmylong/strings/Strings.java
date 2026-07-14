@@ -30,5 +30,16 @@ public class Strings {
         String fullName2 = firstName.concat(" ").concat(lastName);
 
         System.out.println(fullName2);
+
+        String first = "first";
+        String second = "second";
+
+        String anotherFirst = "first";
+        String secondUpperCase = "SECOND";
+
+        System.out.println(first.equals(second));
+        System.out.println(first.equals(anotherFirst));
+        System.out.println(second.equals(secondUpperCase));
+        System.out.println(second.equalsIgnoreCase(secondUpperCase));
     }
 }
