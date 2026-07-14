@@ -19,5 +19,16 @@ public class Strings {
 
         String snakeCaseString = s.replace(" ", "_");
         System.out.println(snakeCaseString);
+
+        String firstName = "Timmy";
+        String lastName = "Long";
+
+        String fullName1 = firstName + " " + lastName;
+
+        System.out.println(fullName1);
+
+        String fullName2 = firstName.concat(" ").concat(lastName);
+
+        System.out.println(fullName2);
     }
 }
