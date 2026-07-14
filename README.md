@@ -14,20 +14,25 @@ src/
 
 ## Topics covered so far
 
-| Topic | File | Notes                                                                |
-|---|---|----------------------------------------------------------------------|
-| Strings | `Strings.java` | Case conversion, `startsWith`, `replace`, `concat`, `equals`, Search |
+| Topic      | File              | Notes                                                                |
+|------------|-------------------|----------------------------------------------------------------------|
+| Strings    | `Strings.java`    | Case conversion, `startsWith`, `replace`, `concat`, `equals`, Search |
+| Formatting | `formatting.java` | printf(), use cases of printf(), String.format() method              |
+   
 
 ## Running a file
 
 ```bash
 javac src/com/timmylong/strings/Strings.java -d out
 java -cp out com.timmylong.strings.Strings
+javac src/com/timmylong/formatting/Formatting.java -d out
+java -cp out com.timmylong.formatting.Formatting
 ```
 
 ## Progress log
 
 - Strings: case conversion, search, replace, concatenation, compare, and search methods.
+- Formatting: printf() method, use cases for printf(), String.format() method.
 
 ---
 
